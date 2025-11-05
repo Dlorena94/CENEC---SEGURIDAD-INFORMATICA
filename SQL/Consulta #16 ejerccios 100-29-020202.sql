@@ -1,0 +1,7 @@
+SELECT* FROM facturas WHERE fecha BETWEEN '20-10201' AND '2020-10-31';
+
+
+
+
+
+SELECT* FROM facturas WHERE YEAR (fecha)=2020;
