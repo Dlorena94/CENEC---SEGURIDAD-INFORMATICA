@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "Code",
+    "Id": 5024,
+    "WorkingSet": 518582272
+  },
+  {
+    "Name": "MsMpEng",
+    "Id": 3460,
+    "WorkingSet": 311750656
+  },
+  {
+    "Name": "chrome",
+    "Id": 12000,
+    "WorkingSet": 309026816
+  },
+  {
+    "Name": "chrome",
+    "Id": 12792,
+    "WorkingSet": 294072320
+  },
+  {
+    "Name": "Duplicati.GUI.TrayIcon",
+    "Id": 10056,
+    "WorkingSet": 289771520
+  }
+]
