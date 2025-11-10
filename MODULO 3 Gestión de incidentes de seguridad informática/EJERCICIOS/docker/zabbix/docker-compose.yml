@@ -1,0 +1,53 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: zabbix-postgres
+    environment:
+      POSTGRES_USER: zabbix
+      POSTGRES_PASSWORD: zabbixpass
+      POSTGRES_DB: zabbix
+    volumes:
+      - zabbix-postgres-data:/var/lib/postgresql/data
+    networks:
+      - zabbix-net
+
+  zabbix-server:
+    image: zabbix/zabbix-server-pgsql:latest
+    container_name: zabbix-server
+    depends_on:
+      - postgres
+    environment:
+      DB_SERVER_HOST: postgres
+      POSTGRES_USER: zabbix
+      POSTGRES_PASSWORD: zabbixpass
+      ZBX_JAVAGATEWAY_ENABLE: "false"
+    ports:
+      - "10051:10051"
+    networks:
+      - zabbix-net
+
+  zabbix-web:
+    image: zabbix/zabbix-web-apache-pgsql:latest
+    container_name: zabbix-web
+    depends_on:
+      - zabbix-server
+      - postgres
+    environment:
+      DB_SERVER_HOST: postgres
+      POSTGRES_USER: zabbix
+      POSTGRES_PASSWORD: zabbixpass
+      ZBX_SERVER_HOST: zabbix-server
+      PHP_TZ: Europe/Madrid
+    ports:
+      - "8080:8080"  # Accede desde el navegador a http://localhost:8080
+    networks:
+      - zabbix-net
+
+volumes:
+  zabbix-postgres-data:
+
+networks:
+  zabbix-net:
+    driver: bridge

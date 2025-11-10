@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  ntopng:
+    image: ntop/ntopng:latest
+    container_name: ntopng
+    network_mode: "host"          # Solo funciona bien en WSL2
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    volumes:
+      - ./ntopng-data:/var/lib/ntopng
+    restart: unless-stopped
+    command: >
+      -i eth0                    # Interfaz principal en WSL2
+      --http-port 3000
+      --community
