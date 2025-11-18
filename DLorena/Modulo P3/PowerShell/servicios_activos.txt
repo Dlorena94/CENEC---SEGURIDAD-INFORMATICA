@@ -1,0 +1,114 @@
+﻿
+Name                           DisplayName                                                            Status
+----                           -----------                                                            ------
+AnyDesk                        AnyDesk Service                                                       Running
+Appinfo                        Información de la aplicación                                          Running
+AppXSvc                        Servicio de implementación de AppX (AppXSVC)                          Running
+AudioEndpointBuilder           Compilador de extremo de audio de Windows                             Running
+Audiosrv                       Audio de Windows                                                      Running
+BFE                            Motor de filtrado de base                                             Running
+BrokerInfrastructure           Servicio de infraestructura de tareas en segundo plano                Running
+BthAvctpSvc                    Servicio AVCTP                                                        Running
+CaptureService_cb797c2         CaptureService_cb797c2                                                Running
+cbdhsvc_cb797c2                Servicio de usuario del portapapeles_cb797c2                          Running
+CDPSvc                         Servicio de plataforma de dispositivos conectados                     Running
+CDPUserSvc_cb797c2             Servicio de usuario de plataforma de dispositivos conectados_cb797c2  Running
+ClickToRunSvc                  Microsoft Office Click-to-Run Service                                 Running
+ClipSVC                        Servicio de licencia de cliente (ClipSVC)                             Running
+CoreMessagingRegistrar         CoreMessaging                                                         Running
+cphs                           Intel(R) Content Protection HECI Service                              Running
+cplspcon                       Intel(R) Content Protection HDCP Service                              Running
+CryptSvc                       Servicios de cifrado                                                  Running
+CxAudioSvc                     CxAudioSvc                                                            Running
+CxUtilSvc                      CxUtilSvc                                                             Running
+DbxSvc                         DbxSvc                                                                Running
+DcomLaunch                     Iniciador de procesos de servidor DCOM                                Running
+Dhcp                           Cliente DHCP                                                          Running
+DiagTrack                      Experiencias del usuario y telemetría asociadas                       Running
+DispBrokerDesktopSvc           Mostrar el servicio de directivas                                     Running
+Dnscache                       Cliente DNS                                                           Running
+DoSvc                          Optimización de distribución                                          Running
+DPS                            Servicio de directivas de diagnóstico                                 Running
+DsSvc                          Servicio de uso compartido de datos                                   Running
+DusmSvc                        Uso de datos                                                          Running
+EFS                            Sistema de cifrado de archivos (EFS)                                  Running
+EventLog                       Registro de eventos de Windows                                        Running
+EventSystem                    Sistema de eventos COM+                                               Running
+FontCache                      Servicio de caché de fuentes de Windows                               Running
+gpsvc                          Cliente de directiva de grupo                                         Running
+hidserv                        Servicio de dispositivo de interfaz humana                            Running
+hns                            Servicio de red de host                                               Running
+HvHost                         Servicio de host HV                                                   Running
+igccservice                    Intel(R) Graphics Command Center Service                              Running
+igfxCUIService2.0.0.0          Intel(R) HD Graphics Control Panel Service                            Running
+InstallService                 Servicio de instalación de Microsoft Store                            Running
+iphlpsvc                       Aplicación auxiliar IP                                                Running
+KeyIso                         Aislamiento de claves CNG                                             Running
+LanmanServer                   Servidor                                                              Running
+LanmanWorkstation              Estación de trabajo                                                   Running
+lfsvc                          Servicio de geolocalización                                           Running
+LicenseManager                 Servicio de administrador de licencias de Windows                     Running
+lmhosts                        Aplicación auxiliar de NetBIOS sobre TCP/IP                           Running
+LMS                            Intel(R) Management and Security Application Local Management Service Running
+LSM                            Administrador de sesión local                                         Running
+MDCoreSvc                      Servicio principal de Microsoft Defender                              Running
+mpssvc                         Firewall de Windows Defender                                          Running
+NcbService                     Agente de conexión de red                                             Running
+netprofm                       Servicio de lista de redes                                            Running
+NlaSvc                         Reconoc. ubicación de red                                             Running
+nsi                            Servicio Interfaz de almacenamiento en red                            Running
+nvagent                        Servicio de virtualización de red                                     Running
+OneSyncSvc_cb797c2             Sincronizar host_cb797c2                                              Running
+PcaSvc                         Servicio Asistente para la compatibilidad de programas                Running
+PimIndexMaintenanceSvc_cb797c2 Datos de contactos_cb797c2                                            Running
+PlugPlay                       Plug and Play                                                         Running
+Power                          Energía                                                               Running
+PrintWorkflowUserSvc_cb797c2   PrintWorkflow_cb797c2                                                 Running
+ProfSvc                        Servicio de perfil de usuario                                         Running
+RasMan                         Administrador de conexiones de acceso remoto                          Running
+RmSvc                          Servicio de administración de radio                                   Running
+RpcEptMapper                   Asignador de extremos de RPC                                          Running
+RpcSs                          Llamada a procedimiento remoto (RPC)                                  Running
+RtkAudioService                Realtek Audio Service                                                 Running
+SamSs                          Administrador de cuentas de seguridad                                 Running
+Schedule                       Programador de tareas                                                 Running
+SecurityHealthService          Servicio Seguridad de Windows                                         Running
+SENS                           Servicio de notificación de eventos de sistema                        Running
+SharedAccess                   Conexión compartida a Internet (ICS)                                  Running
+ShellHWDetection               Detección de hardware shell                                           Running
+Spooler                        Cola de impresión                                                     Running
+SSDPSRV                        Detección SSDP                                                        Running
+SstpSvc                        Servicio de protocolo de túnel de sockets seguros                     Running
+StateRepository                Servicio de repositorio de estado                                     Running
+StorSvc                        Servicio de almacenamiento                                            Running
+SysMain                        SysMain                                                               Running
+SystemEventsBroker             Agente de eventos del sistema                                         Running
+TabletInputService             Servicio de Panel de escritura a mano y teclado táctil                Running
+TeamViewer                     TeamViewer                                                            Running
+Themes                         Temas                                                                 Running
+TimeBrokerSvc                  Agente de eventos de tiempo                                           Running
+TokenBroker                    Administrador de cuentas web                                          Running
+TrkWks                         Cliente de seguimiento de vínculos distribuidos                       Running
+UnistoreSvc_cb797c2            Almacenamiento de datos de usuarios_cb797c2                           Running
+UserDataSvc_cb797c2            Acceso a datos de usuarios_cb797c2                                    Running
+UserManager                    Administrador de usuarios                                             Running
+UsoSvc                         Servicio orquestador de actualizaciones                               Running
+VaultSvc                       Administrador de credenciales                                         Running
+W32Time                        Hora de Windows                                                       Running
+WbioSrvc                       Servicio biométrico de Windows                                        Running
+Wcmsvc                         Administrador de conexiones de Windows                                Running
+WdiServiceHost                 Host del servicio de diagnóstico                                      Running
+WdiSystemHost                  Host de sistema de diagnóstico                                        Running
+WdNisSvc                       Servicio de inspección de red de Antivirus de Microsoft Defender      Running
+WinDefend                      Servicio Antivirus de Microsoft Defender                              Running
+WinHttpAutoProxySvc            Servicio de detección automática de proxy web WinHTTP                 Running
+Winmgmt                        Instrumental de administración de Windows                             Running
+WpnService                     Servicio del sistema de notificaciones de inserción de Windows        Running
+WpnUserService_cb797c2         Servicio de usuario de notificaciones de inserción de Windows_cb797c2 Running
+wscsvc                         Centro de seguridad                                                   Running
+WSearch                        Windows Search                                                        Running
+WSLService                     WSL Service                                                           Running
+XTU3SERVICE                    XTUOCDriverService                                                    Running
+ZoomCptService                 Zoom Sharing Service                                                  Running
+
+
